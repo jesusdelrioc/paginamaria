@@ -1,0 +1,822 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a .logomaria{
+  float: right;
+  margin-right: 10%;
+  width: 30%;
+}
+.espacio{
+  width: 230px;
+}
+li{
+  margin-right: 10%;
+}
+.home{
+  margin-left: 10%;
+}
+
+.nav-item{
+padding-right: 30px;
+}
+@media (max-width: 992px){
+.navbar-nav  {
+   background:rgb(165, 161, 150);
+   font-family: bell;
+ border:1px solid black;
+ border-radius: 10px;
+ padding-left: 39px;
+ margin-right: 20px;
+}
+}
+@media (min-width: 992px){
+.navbar-nav{
+  background: rgb(165, 161, 150);
+  text-align: center;
+  width: 80%;
+  padding-left: 39px;
+ 
+}}
+.nav-link{
+  font-family: bell MT regular;
+  font-size: 1.3em;
+  
+}
+nav{
+  height: 70px;
+  background-color: rgb(165, 161, 150);
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(131, 131, 131);
+}
+.container-fluid {
+  padding: 0 1em;
+}
+.splash {
+  background: linear-gradient(rgba(201, 201, 201, 0.55), rgba(201, 201, 201, 0.55)),
+                url("https://preview.ibb.co/bCNz1J/9b69f4204b6b9a9b62f57738d77535bd.jpg") no-repeat fixed center;
+    background-size: cover;
+    color: #fff;
+    
+}
+.splash .container {
+  padding-top: 25vh; 
+  padding-bottom: 25vh; 
+}
+.splash h1 {
+  font-family: didot;
+  font-size: 3.5em;
+  color:black;
+  /* margin-bottom: .15em; */
+  text-align: center;
+  font-weight: bold;
+}
+.splash .lead, .splash .continue {
+  display: block;
+  text-align: center;
+}
+.splash .lead {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+.splash .lead {
+  font-size: 2em;
+  color: black;
+  font-family:bell;
+}
+.intro{
+  text-align: center;
+  background: rgb(165, 161, 150);
+  padding-bottom: 50px;
+}
+.sobre{
+  margin-bottom: 50px;
+  padding-top:80px;
+}
+.sobre hr{
+  margin-left: 41%;
+  
+}
+.sobre h1{
+  font-family: didot;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.sobre h4{
+  color:rgba(131, 131, 131);
+  font-family: bell;
+  
+}
+.df p{
+  font-family: bell;
+  font-size: 1.3em;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+@media(max-width:600px){
+  .df p{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.pro{
+  padding-top: 40px;
+}
+.project{
+  text-align: center;
+  background:white;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+.pro h1{
+  font-family: didot;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.pro h4{
+  font-family:bell;
+  color:rgba(131, 131, 131);
+}
+.vl {
+  border-left: 2px solid gray;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+ 
+}
+.pro hr{
+  margin-top:58px;
+
+width: 77%;
+margin-bottom: 0px;
+border: 1px solid gray;
+} 
+
+
+@media screen and (max-width: 600px) {
+  .vl {
+    border-left: 1px solid white;
+  }
+  .pro hr{
+   border: 2px  white;
+  }
+  .v1{
+    border: 1px white;
+  }
+  .v2{
+    border: 1px white;
+  }
+  .v3{
+    border: 1px white;
+  }
+  .v4{
+    border: 1px white;
+  }
+}
+
+/* 
+@media (min-width: 576px){
+.card-deck .card {
+  margin-right: 47px;
+  margin-left: 47px;
+  height: 200px;
+}
+} */
+
+.card-footer{
+  margin-top: 50px;
+  background: white;
+}
+@media (max-width: 992px){
+  .footer img{
+    width: 20%
+  }
+  .footer .twitter{
+    width: 17%;
+  }
+}
+@media (min-width: 992px){
+  .footer img{
+    width: 6%;
+  }
+  .footer .twitter{
+    width: 5%;
+  }
+}
+
+.footer{
+  border-top: 2px solid black;
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.informacion{
+  text-align: center;
+}
+.informacion h4{
+  font-family: bell;
+  font-size: 1.3em;
+}
+.contacto{
+  background: rgb(165, 161, 150);
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.contacto h1{
+  text-align: center;
+  font-family: didot;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.contacto hr{
+width: 15%;
+border:1px solid black;
+margin-left: 43%;
+}
+input{
+  background: rgb(179, 179, 179);
+}
+.contacto input{
+  border-radius: 3px;
+  border:2px solid black;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  border-right: 1px solid rgb(179, 179, 179);
+  border-left: 1px solid rgb(179, 179, 179);
+}
+
+@media (max-width: 992px){
+  .nombre  {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .sd{
+    padding-top: 30px;
+  }
+  .email{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .input2{
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+  .mensaje{
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center
+  }
+  .s .btn {
+    margin-left: 70%;
+    margin-bottom:20px; 
+    background: rgb(165, 161, 150);
+    border:2px solid black;
+    border-radius: 0%;
+    color: black;
+    font-family: bell MT;
+    font-size: 1em;
+    padding: 0%;
+    width: 20%;
+  }
+  }
+
+  @media (min-width: 992px){
+.nombre{
+  width: 25%;
+  text-align: center;
+}
+.sd{
+  padding-left:30%; 
+  padding-top: 30px;
+}
+.email{
+  width: 25%;
+  text-align: center;
+  margin-left: 6%;
+}
+.input2{
+  margin-top: 30px;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+}
+.mensaje{
+  margin-top: 30px;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center
+}
+.s .btn {
+  margin-left: 63.2%;
+  margin-bottom:20px; 
+  background: rgb(165, 161, 150);
+  border:2px solid black;
+  border-radius: 0%;
+  color: black;
+  font-family: bell MT;
+  font-size: 1em;
+  padding: 0%;
+  width: 6.85%;
+}
+}
+
+
+.is input{
+  height: 200px;
+  padding-bottom: 160px;
+  margin-bottom: 5px;
+}
+
+.cs{
+  background: black;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+}
+.cv button{
+  color: white; 
+  border-radius: 0%;
+  padding-top: 10px;
+  padding-left: 2%;
+  font-family: bell MT;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.menu{
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid rgb(143, 138, 126);
+}
+
+.porfis{
+  border-radius: 50%;
+  width:200px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.porfis img{
+  margin: 40px;
+}
+.porfa{
+  margin-left: 9%;
+  display:inline-block;
+}
+.card-title{
+  font-family: bell;
+  color: black;
+}
+.foto{
+  padding-top: 10px;
+}
+.foto h5{
+  padding-top: 10px;
+}
+a{
+  color:black;
+}
+.dropdown-menu {
+  background: rgb(143, 138, 126);
+}
+@media (min-width: 576px){
+.card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: 0px;
+}
+}
+@media (max-width: 992px){
+  .ilu{
+    height: 250px;
+    background: rgb(165, 161, 150);
+    padding-top: 90px;
+    border-bottom:3px solid rgb(143, 138, 126) ;
+  }
+  
+  .ilustracion{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 39%;
+    margin-bottom: 20px;
+    padding-top: 7px;
+  }
+  .ilustracion img{
+    margin: 20px;
+  }
+  .letras h5{
+    font-family:bell;
+  }
+  .direccion{
+    background: rgb(165, 161, 150);
+    border-bottom: 5px solid rgb(143, 138, 126);
+    height: 40px;
+    position: inherit;
+    font-family: bell;
+    width: 100%;
+  }
+  .direccion .a{
+    padding-top: 7px;
+  }
+  .direccion .n{
+    border-right: 1px solid rgb(143, 138, 126);
+    background: rgb(165, 161, 150);
+    height: 100%;
+   }
+   .direccion .c{
+    background: rgb(165, 161, 150);
+    border-right: 1px solid rgb(143, 138, 126);
+    height: 100%;
+   }
+   .direccion .s{
+    background: rgb(165, 161, 150);
+   }
+   .cicatrices{
+    margin: 50px;
+  }
+  .esther p{
+    margin-top: 80px;
+    font-family: bell;
+    font-size: 1.5em;
+    width: 100%;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+    }
+    .cuerpo{
+      width: 100%;
+      margin-top: 100px;
+      font-size: 1.1em;
+      font-family: bell;
+      letter-spacing: 1px;
+      }
+      .col-6 .coleccion{
+        font-family: didot;
+        font-size: 2.3em;
+        font-weight: bold;
+        margin-left: 32%;
+        margin-top: 100px;
+      }
+      .col-6 h2{
+        font-family: bell;
+        font-size: 1.9em;
+        font-weight: inherit;
+        margin-left: 26%;
+        letter-spacing: 2.45px;
+      }
+      .col-6 hr{
+        width: 35%;
+        margin-left: 32%;
+        border: 0.5px solid rgb(207, 207, 207);
+        margin-top: 30px;
+      }
+      .sexy .text-center{
+        color: rgb(184, 180, 166);
+        font-family: didot;
+        font-size: 2.9em;
+        margin-top: 50px;
+        letter-spacing: 15px;
+      }
+      .sesiones .text-center{
+        color: rgb(184, 180, 166);
+        font-family: didot;
+        font-size: 3em;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        letter-spacing: 15px; 
+       }
+       .produccion{
+         margin-left: 0%;
+      margin-top: 90px;
+      }
+  .allende h1{
+    border: 2px solid black;
+    margin-top: 250px;
+    font-size: 1em;
+    padding: 40px;
+    letter-spacing: 2px;
+    font-family: bell;
+      }
+      .allende img{
+        margin-left: 110px;
+        margin-top:30px; 
+        width: 100%;
+      }
+}
+
+
+@media (min-width: 992px){
+  .ilu{
+    height: 250px;
+    background: rgb(165, 161, 150);
+    padding-top: 90px;
+    border-bottom:3px solid rgb(143, 138, 126) ;
+  }
+  
+  .ilustracion{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 46.5%;
+    margin-bottom: 20px;
+    padding-top: 7px;
+  }
+  .ilustracion img{
+    margin: 20px;
+  }
+  .letras h5{
+    font-family:bell;
+  }
+  .direccion{
+  background: rgb(165, 161, 150);
+  border-bottom: 2px solid rgb(143, 138, 126);
+  height: 40px;
+  position: inherit;
+  font-family: bell;
+  width: 100%;
+}
+.direccion .a{
+  display: inline-block;
+  padding-top: 7px;
+  padding-right:10%; 
+  padding-left:10%; 
+}
+.direccion .n{
+  border-right: 1px solid rgb(143, 138, 126);
+  height: 100%;
+ }
+ .direccion .c{
+  border-right: 1px solid rgb(143, 138, 126);
+  height: 100%;
+ }
+ .cicatrices{
+  margin: 50px;
+}
+.modelo img{
+  margin-top: 2%;
+  margin:20px; 
+  }
+  .esther p{
+    margin-top: 80px;
+    font-family: bell;
+    font-size: 1.5em;
+    width: 50%;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+    }
+    .cuerpo{
+      width: 48%;
+      margin-left: 25%;
+      margin-top: 100px;
+      font-size: 1.1em;
+      font-family: bell;
+      letter-spacing: 1px;
+      }
+      .col-6 .coleccion{
+        font-family: didot;
+        font-size: 2.3em;
+        font-weight: bold;
+        margin-left: 32%;
+        margin-top: 100px;
+      }
+      .col-6 h2{
+        font-family: bell;
+        font-size: 1.9em;
+        font-weight: inherit;
+        margin-left: 26%;
+        letter-spacing: 2.45px;
+      }
+      .col-6 hr{
+        width: 35%;
+        margin-left: 32%;
+        border: 0.5px solid rgb(207, 207, 207);
+        margin-top: 30px;
+      }
+      .sexy .text-center{
+        color: rgb(184, 180, 166);
+        font-family: didot;
+        font-size: 2.9em;
+        margin-top: 50px;
+        letter-spacing: 15px;
+      }
+      .sesiones .text-center{
+        color: rgb(184, 180, 166);
+        font-family: didot;
+        font-size: 3em;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        letter-spacing: 15px; 
+       }
+       .sesiones{
+         width: 20%;
+         margin-left: 40%;
+       }
+       .azotea{
+  background: rgb(183, 180, 165);
+  padding:40px;
+}
+.produccion{
+  margin-left: 8%;
+margin-top: 90px;
+}
+.allende h1{
+  margin-top: 150px;
+  border: 2px solid black;
+  padding: 40px;
+  font-size: 3em;
+  font-family: bell;
+  letter-spacing: 20px;
+}
+.allende img{
+  margin-left: 50px;
+  margin-top:30px; 
+  width:80% ;
+}
+}
+
+.col-6{
+  position: inherit;
+}
+
+
+.niño{
+  height: 1100px;
+  background: rgb(183, 180, 165);
+  padding-top: 25px;
+}
+.neno{
+  font-family: didot;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.mary{
+  font-family: bell;
+  font-size: 1.9em;
+  letter-spacing: 10px;
+  margin-top: 10px;
+}
+.niño hr{
+width: 19%;
+margin-left: 40%;
+border:1px solid rgb(65, 65, 65);
+margin-top: 20px;
+}
+.niño p{
+  width: 55%;
+  margin-left: 23%;
+  font-family: bell;
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+.zapatos{
+  height: 1200px;
+  padding-top: 25px;
+}
+.zapatos .za{
+  font-family: didot;
+  font-weight: bold;
+
+  padding-top: 50px;
+}
+.zapatos .bo{
+  font-family: bell;
+  margin-left: 33%;
+  letter-spacing: 10px;
+}
+.zapatos hr{
+  width: 20%;
+  margin-left: 40%;
+  border:1px solid rgb(65, 65, 65);
+  margin-top: 40px;
+  }
+  .col-3{
+    position: inherit;
+  }
+  .niño .col-3{
+    height: 500px;
+    margin-top: 70px;
+  }
+.liza{
+  background: rgb(165, 161, 150);
+  height: 50px;
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.zapatos .col-4{
+  height: 400px;
+  margin-top: 70px;
+}
+.col-4{
+  position: inherit;
+}
+.zapatos img{
+  padding: 50px;
+  padding-bottom: 20px;
+}
+.linea{
+  background: rgb(165, 161, 150);
+  width: 100%;
+  padding-top:30px; 
+}
+.tras h5{
+  font-family:bell;
+}
+.allende{
+  background:  rgb(165, 161, 150);
+  padding-bottom: 50px;
+}
+
+.looks{
+  padding-bottom: 50px;
+}
+
+.sonia{
+  padding: 50px;
+}
+.fotosniños img{
+  padding: 50px;
+}
+.textoniño p{
+ 
+  font-family: bell;
+  font-size: 1.3em;
+  margin-top: 50px;
+ 
+}
+.textoniño h1{
+  font-family: didot;
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 400px;
+}
+.fotosniños{
+  padding: 50px;
+}
+.fotosniños hr{
+  width: 200px;
+  margin-left: 25%;
+  background: black;
+}
+.col-8{
+  position: inherit;
+}
+.niña{
+  background: rgb(183, 180, 165);
+}
+.niña h2{
+margin: 0%;
+font-family: bell;
+letter-spacing: 15px;
+font-size: 2em;
+}
+.niña h1{
+  padding-top: 50px;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 3em;
+}
+.esther{
+  margin: 50px;
+}
+
+.peleteria h1{
+  padding-top: 50px;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 3em;
+}
+.peleteria h2{
+  margin: 0%;
+  font-family: bell;
+  letter-spacing: 15px;
+  font-size: 2em;
+}
+.peleteria hr{
+  width: 20%;
+  background: black;
+  margin-left: 40%;
+}
+
