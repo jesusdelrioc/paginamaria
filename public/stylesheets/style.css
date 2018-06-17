@@ -94,10 +94,7 @@ nav{
   background: rgb(165, 161, 150);
   padding-bottom: 50px;
 }
-.sobre{
-  margin-bottom: 50px;
-  padding-top:80px;
-}
+
 .sobre hr{
   margin-left: 41%;
   
@@ -180,36 +177,10 @@ border: 1px solid gray;
   }
 }
 
-/* 
-@media (min-width: 576px){
-.card-deck .card {
-  margin-right: 47px;
-  margin-left: 47px;
-  height: 200px;
-}
-} */
-
 .card-footer{
   margin-top: 50px;
   background: white;
 }
-@media (max-width: 992px){
-  .footer img{
-    width: 20%
-  }
-  .footer .twitter{
-    width: 17%;
-  }
-}
-@media (min-width: 992px){
-  .footer img{
-    width: 6%;
-  }
-  .footer .twitter{
-    width: 5%;
-  }
-}
-
 .footer{
   border-top: 2px solid black;
   padding-top: 20px;
@@ -225,11 +196,6 @@ border: 1px solid gray;
 .informacion h4{
   font-family: bell;
   font-size: 1.3em;
-}
-.contacto{
-  background: rgb(165, 161, 150);
-  padding-bottom: 20px;
-  padding-top: 50px;
 }
 .contacto h1{
   text-align: center;
@@ -259,6 +225,19 @@ input{
     width: 80%;
     text-align: center;
     margin-left: 10%;
+  }
+  .footer img{
+    width: 20%
+  }
+  .footer .twitter{
+    width: 17%;
+  }
+  .sobre{
+    
+    padding-top:80px;
+  }
+  .contacto{
+    background: rgb(165, 161, 150);
   }
   .sd{
     padding-top: 30px;
@@ -293,12 +272,30 @@ input{
     padding: 0%;
     width: 20%;
   }
+  .porfis{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
   }
 
   @media (min-width: 992px){
+    .contacto{
+      background: rgb(165, 161, 150);
+      padding-bottom: 20px;
+      padding-top: 1px;
+    }
 .nombre{
   width: 25%;
   text-align: center;
+}
+.sobre{
+ 
+  padding-top:80px;
 }
 .sd{
   padding-left:30%; 
@@ -333,6 +330,21 @@ input{
   padding: 0%;
   width: 6.85%;
 }
+.porfis{
+  border-radius: 50%;
+  width:200px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.footer img{
+  width: 6%;
+}
+.footer .twitter{
+  width: 5%;
+}
 }
 
 
@@ -362,15 +374,7 @@ input{
   border-bottom: 2px solid rgb(143, 138, 126);
 }
 
-.porfis{
-  border-radius: 50%;
-  width:200px;
-  height: 200px;
-  border: 1px solid black;
-  margin-left: 5%;
-  margin-bottom: 20px;
-  margin-top: 30px;
-}
+
 .porfis img{
   margin: 40px;
 }
@@ -417,7 +421,6 @@ a{
     width:100px;
     height: 100px;
     border: 1px solid black;
-    margin-left: 39%;
     margin-bottom: 20px;
     padding-top: 7px;
   }
@@ -457,71 +460,143 @@ a{
   .esther p{
     margin-top: 80px;
     font-family: bell;
-    font-size: 1.5em;
+    font-size: 1.3em;
     width: 100%;
-    margin-left: 25%;
-    letter-spacing: 1px;
     margin-bottom: 80px;
     }
     .cuerpo{
-      width: 100%;
-      margin-top: 100px;
+      margin-top: 50px;
       font-size: 1.1em;
       font-family: bell;
       letter-spacing: 1px;
       }
-      .col-6 .coleccion{
+      .col-sm-6 .coleccion{
         font-family: didot;
         font-size: 2.3em;
         font-weight: bold;
-        margin-left: 32%;
+        text-align: center !important;
         margin-top: 100px;
       }
-      .col-6 h2{
+      .col-sm-6 h2{
         font-family: bell;
-        font-size: 1.9em;
+        font-size: 1.3em;
         font-weight: inherit;
-        margin-left: 26%;
-        letter-spacing: 2.45px;
+        text-align: center !important;
+        letter-spacing: 2px;
       }
-      .col-6 hr{
-        width: 35%;
-        margin-left: 32%;
+      .col-sm-6 hr{
         border: 0.5px solid rgb(207, 207, 207);
         margin-top: 30px;
       }
-      .sexy .text-center{
-        color: rgb(184, 180, 166);
-        font-family: didot;
-        font-size: 2.9em;
-        margin-top: 50px;
-        letter-spacing: 15px;
-      }
-      .sesiones .text-center{
-        color: rgb(184, 180, 166);
-        font-family: didot;
-        font-size: 3em;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        letter-spacing: 15px; 
-       }
-       .produccion{
-         margin-left: 0%;
-      margin-top: 90px;
-      }
-  .allende h1{
-    border: 2px solid black;
-    margin-top: 250px;
-    font-size: 1em;
-    padding: 40px;
-    letter-spacing: 2px;
-    font-family: bell;
-      }
-      .allende img{
-        margin-left: 110px;
-        margin-top:30px; 
-        width: 100%;
-      }
+.look img{
+  margin-top: 20px;
+}      
+.sexy h1{
+  color: rgb(184, 180, 166);
+  font-family: didot;
+  font-size: 2em;
+  margin-top: 50px;
+  letter-spacing: 10px;
+}
+.sesiones .text-center{
+  color: rgb(184, 180, 166);
+  font-family: didot;
+  font-size: 3em;
+  letter-spacing: 15px; 
+ }
+.allende h1{
+  border: 2px solid black;
+  margin:15px;
+  font-size: 1.5em;
+  padding: 40px;
+  letter-spacing: 2px;
+  font-family: bell;
+}
+.allende img{
+  margin-top:30px; 
+  width: 100%;
+}
+.modelo img{
+  margin-top: 2%;
+}
+.niño{
+  height: 700px;
+  background: rgb(183, 180, 165);
+  padding-top: 25px;
+}
+.neno{
+  font-family: didot;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.mary{
+  font-family: bell;
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  margin-top: 10px;
+}
+.niño hr{
+  width: 19%;
+  margin-left: 40%;
+  border:1px solid rgb(65, 65, 65);
+  margin-top: 20px;
+}
+.niño p{
+  width: 55%;
+  margin-left: 23%;
+  font-family: bell;
+  font-size: 1em;
+  margin-top: 40px;
+}  
+.zapatos{
+  height: 500px;
+  padding-top: 25px;
+}
+.textoniño h1 {
+  font-family: didot;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-top: 40px;
+} 
+.fotosniños hr {
+  width: 260px;
+  /* margin-left: 25%; */
+  background: black;
+}
+.niña h2{
+  margin: 0%;
+  font-family: bell;
+  letter-spacing: 7px;
+  font-size: 1.5em;
+}
+.niña h1{
+  padding-top: 50px;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 2em;
+}
+.zapatos .bo{
+  font-family: bell;   
+   font-size: 1.5em;
+}
+.peleteria h1{
+  padding-top: 50px;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 2em;
+}
+.peleteria h2{
+  margin: 0%;
+  font-family: bell;
+  letter-spacing: 15px;
+  font-size: 1.5em;
+}
+.peleteria hr{
+  width: 55%;
+  background: black;
+  margin-left: 20%;
+}
+ 
 }
 
 
@@ -538,7 +613,7 @@ a{
     width:100px;
     height: 100px;
     border: 1px solid black;
-    margin-left: 46.5%;
+    
     margin-bottom: 20px;
     padding-top: 7px;
   }
@@ -569,71 +644,71 @@ a{
  .direccion .c{
   border-right: 1px solid rgb(143, 138, 126);
   height: 100%;
- }
+}
  .cicatrices{
   margin: 50px;
 }
 .modelo img{
   margin-top: 2%;
   margin:20px; 
-  }
-  .esther p{
-    margin-top: 80px;
-    font-family: bell;
-    font-size: 1.5em;
-    width: 50%;
-    margin-left: 25%;
-    letter-spacing: 1px;
-    margin-bottom: 80px;
-    }
-    .cuerpo{
-      width: 48%;
-      margin-left: 25%;
-      margin-top: 100px;
-      font-size: 1.1em;
-      font-family: bell;
-      letter-spacing: 1px;
-      }
-      .col-6 .coleccion{
-        font-family: didot;
-        font-size: 2.3em;
-        font-weight: bold;
-        margin-left: 32%;
-        margin-top: 100px;
-      }
-      .col-6 h2{
-        font-family: bell;
-        font-size: 1.9em;
-        font-weight: inherit;
-        margin-left: 26%;
-        letter-spacing: 2.45px;
-      }
-      .col-6 hr{
-        width: 35%;
-        margin-left: 32%;
-        border: 0.5px solid rgb(207, 207, 207);
-        margin-top: 30px;
-      }
-      .sexy .text-center{
-        color: rgb(184, 180, 166);
-        font-family: didot;
-        font-size: 2.9em;
-        margin-top: 50px;
-        letter-spacing: 15px;
-      }
-      .sesiones .text-center{
-        color: rgb(184, 180, 166);
-        font-family: didot;
-        font-size: 3em;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        letter-spacing: 15px; 
-       }
-       .sesiones{
-         width: 20%;
-         margin-left: 40%;
-       }
-       .azotea{
+}
+.esther p{
+  margin-top: 80px;
+  font-family: bell;
+  font-size: 1.5em;
+  width: 50%;
+  margin-left: 25%;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+.cuerpo{
+  width: 48%;
+  margin-left: 25%;
+  margin-top: 100px;
+  font-size: 1.1em;
+  font-family: bell;
+  letter-spacing: 1px;
+}
+.col-sm-6 .coleccion{
+  font-family: didot;
+  font-size: 2.3em;
+  font-weight: bold;
+  margin-left: 32%;
+  margin-top: 100px;
+}
+.col-sm-6 h2{
+  font-family: bell;
+  font-size: 1.9em;
+  font-weight: inherit;
+  margin-left: 26%;
+  letter-spacing: 2.45px;
+}
+.col-sm-6 hr{
+  width: 35%;
+  margin-left: 32%;
+  border: 0.5px solid rgb(207, 207, 207);
+  margin-top: 30px;
+}
+.sexy h1{
+  color: rgb(184, 180, 166);
+  font-family: didot;
+  font-size: 2.9em;
+  margin-top: 50px;
+  letter-spacing: 15px;
+}
+.sesiones .text-center{
+  color: rgb(184, 180, 166);
+  font-family: didot;
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  letter-spacing: 15px; 
+}
+.sesiones{
+  width: 20%;
+  margin-left: 40%;
+}
+.azotea{
   background: rgb(183, 180, 165);
   padding:40px;
 }
@@ -643,6 +718,7 @@ margin-top: 90px;
 }
 .allende h1{
   margin-top: 150px;
+  margin-right: 30px;
   border: 2px solid black;
   padding: 40px;
   font-size: 3em;
@@ -654,13 +730,6 @@ margin-top: 90px;
   margin-top:30px; 
   width:80% ;
 }
-}
-
-.col-6{
-  position: inherit;
-}
-
-
 .niño{
   height: 1100px;
   background: rgb(183, 180, 165);
@@ -694,16 +763,70 @@ margin-top: 20px;
   height: 1200px;
   padding-top: 25px;
 }
+.fotosniños img{
+  padding: 50px;
+}
+.textoniño h1{
+  font-family: didot;
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 400px;
+}
+.fotosniños hr{
+  width: 200px;
+  margin-left: 29%;
+  background: black;
+}
+.niña h2{
+  margin: 0%;
+  font-family: bell;
+  letter-spacing: 15px;
+  font-size: 2em;
+}
+.niña h1{
+  padding-top: 50px;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 3em;
+}
+.zapatos .bo{
+  font-family: bell;
+  letter-spacing: 10px;
+}
+.peleteria h1{
+  padding-top: 50px;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 3em;
+}
+.peleteria h2{
+  margin: 0%;
+  font-family: bell;
+  letter-spacing: 15px;
+  font-size: 2em;
+}
+.peleteria hr{
+  width: 20%;
+  background: black;
+  margin-left: 40%;
+}
+.sonia{
+  padding: 50px;
+}
+}
+
+
+
+
+
+.col-sm-6{
+  position: inherit;
+}
 .zapatos .za{
   font-family: didot;
   font-weight: bold;
 
   padding-top: 50px;
-}
-.zapatos .bo{
-  font-family: bell;
-  margin-left: 33%;
-  letter-spacing: 10px;
 }
 .zapatos hr{
   width: 20%;
@@ -732,8 +855,14 @@ margin-top: 20px;
 .col-4{
   position: inherit;
 }
+.col-sm-4{
+  position: inherit;
+}
+.col-sm-5{
+  position: inherit;
+}
 .zapatos img{
-  padding: 50px;
+  
   padding-bottom: 20px;
 }
 .linea{
@@ -748,75 +877,26 @@ margin-top: 20px;
   background:  rgb(165, 161, 150);
   padding-bottom: 50px;
 }
-
 .looks{
   padding-bottom: 50px;
 }
 
-.sonia{
-  padding: 50px;
-}
-.fotosniños img{
-  padding: 50px;
-}
 .textoniño p{
- 
   font-family: bell;
   font-size: 1.3em;
   margin-top: 50px;
- 
-}
-.textoniño h1{
-  font-family: didot;
-  font-weight: bold;
-  font-size: 3em;
-  margin-top: 400px;
 }
 .fotosniños{
   padding: 50px;
 }
-.fotosniños hr{
-  width: 200px;
-  margin-left: 25%;
-  background: black;
-}
-.col-8{
+.col-sm-8{
   position: inherit;
 }
 .niña{
   background: rgb(183, 180, 165);
 }
-.niña h2{
-margin: 0%;
-font-family: bell;
-letter-spacing: 15px;
-font-size: 2em;
-}
-.niña h1{
-  padding-top: 50px;
-  font-family: didot;
-  font-weight: bold;
-  font-size: 3em;
-}
 .esther{
   margin: 50px;
 }
 
-.peleteria h1{
-  padding-top: 50px;
-  font-family: didot;
-  font-weight: bold;
-  font-size: 3em;
-}
-.peleteria h2{
-  margin: 0%;
-  font-family: bell;
-  letter-spacing: 15px;
-  font-size: 2em;
-}
-.peleteria hr{
-  width: 20%;
-  background: black;
-  margin-left: 40%;
-}
 
